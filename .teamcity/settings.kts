@@ -64,7 +64,7 @@ object Proj1_Build1 : BuildType({
 
 object Proj1_Root1 : GitVcsRoot({
     name = "root1"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -90,7 +90,7 @@ object Proj2_Build2 : BuildType({
 
 object Proj2_Root2 : GitVcsRoot({
     name = "root2"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -116,7 +116,7 @@ object Proj3_Build3 : BuildType({
 
 object Proj3_Root3 : GitVcsRoot({
     name = "root3"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -141,7 +141,7 @@ object Proj4_Build4 : BuildType({
 
 object Proj4_Root4 : GitVcsRoot({
     name = "root4"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -166,7 +166,7 @@ object Proj5_Build5 : BuildType({
 
 object Proj5_Root5 : GitVcsRoot({
     name = "root5"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -191,7 +191,7 @@ object Proj6_Build6 : BuildType({
 
 object Proj6_Root6 : GitVcsRoot({
     name = "root6"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -216,7 +216,7 @@ object Proj7_Build7 : BuildType({
 
 object Proj7_Root7 : GitVcsRoot({
     name = "root7"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -241,7 +241,7 @@ object Proj8_Build8 : BuildType({
 
 object Proj8_Root8 : GitVcsRoot({
     name = "root8"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -266,7 +266,7 @@ object Proj9_Build9 : BuildType({
 
 object Proj9_Root9 : GitVcsRoot({
     name = "root9"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -291,7 +291,7 @@ object Proj10_Build10 : BuildType({
 
 object Proj10_Root10 : GitVcsRoot({
     name = "root10"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -316,7 +316,7 @@ object Proj11_Build11 : BuildType({
 
 object Proj11_Root11 : GitVcsRoot({
     name = "root11"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -341,7 +341,7 @@ object Proj12_Build12 : BuildType({
 
 object Proj12_Root12 : GitVcsRoot({
     name = "root12"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -366,7 +366,7 @@ object Proj13_Build13 : BuildType({
 
 object Proj13_Root13 : GitVcsRoot({
     name = "root13"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -391,7 +391,7 @@ object Proj14_Build14 : BuildType({
 
 object Proj14_Root14 : GitVcsRoot({
     name = "root14"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
@@ -416,7 +416,7 @@ object Proj15_Build15 : BuildType({
 
 object Proj15_Root15 : GitVcsRoot({
     name = "root15"
-    pollInterval = 600
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/br-demo3"
     branchSpec = "refs/heads/(br-demo11*)"
