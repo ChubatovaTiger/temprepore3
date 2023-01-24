@@ -10,12 +10,12 @@ project {
             id("Proj$i")
             name = "Proj$i"
             val rootid="Proj$i_Root$i"
-            vcsRoot(Proj1_Root1("$i"))
+            //vcsRoot(Proj1_Root1("$i"))
                 buildType {
                     id("Build$i")
                     name = "Build$i"
                     
-                    vcs { root(Proj1_Root1("$i"))
+                    //vcs { root(Proj1_Root1("$i"))
                         
                         }
             }
