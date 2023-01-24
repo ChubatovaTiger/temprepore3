@@ -30,7 +30,7 @@ object Proj1 : Project({
 
     vcsRoot(Proj1_Root1)
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("build1$i")
                     name = "build1$i"
@@ -59,7 +59,7 @@ object Proj2 : Project({
     vcsRoot(Proj2_Root2)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj2_build1$i")
                     name = "build1$i"
@@ -89,7 +89,7 @@ object Proj3 : Project({
     vcsRoot(Proj3_Root3)
 
   ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj3_build1$i")
                     name = "build1$i"
@@ -118,7 +118,7 @@ object Proj4 : Project({
     vcsRoot(Proj4_Root4)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj4_build1$i")
                     name = "build1$i"
@@ -147,7 +147,7 @@ object Proj5 : Project({
     vcsRoot(Proj5_Root5)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj5_build1$i")
                     name = "build1$i"
@@ -176,7 +176,7 @@ object Proj6 : Project({
     vcsRoot(Proj6_Root6)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj6_build1$i")
                     name = "build1$i"
@@ -204,7 +204,7 @@ object Proj7 : Project({
     vcsRoot(Proj7_Root7)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj7_build1$i")
                     name = "build1$i"
@@ -233,7 +233,7 @@ object Proj8 : Project({
     vcsRoot(Proj8_Root8)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj8_build1$i")
                     name = "build1$i"
@@ -261,7 +261,7 @@ object Proj9 : Project({
     vcsRoot(Proj9_Root9)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj9_build1$i")
                     name = "build1$i"
@@ -289,7 +289,7 @@ object Proj10 : Project({
     vcsRoot(Proj10_Root10)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj10_build1$i")
                     name = "build1$i"
@@ -316,7 +316,7 @@ object Proj11 : Project({
 
     vcsRoot(Proj11_Root11)
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj11_build1$i")
                     name = "build1$i"
@@ -344,7 +344,7 @@ object Proj12 : Project({
     vcsRoot(Proj12_Root12)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj12_build1$i")
                     name = "build1$i"
@@ -372,7 +372,7 @@ object Proj13 : Project({
     vcsRoot(Proj13_Root13)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj13_build1$i")
                     name = "build1$i"
@@ -426,7 +426,7 @@ object Proj15 : Project({
     vcsRoot(Proj15_Root15)
 
  ////////////////////////////   
-    for (i in 1..40) {
+    for (i in 1..100) {
                 buildType {
                     id("Proj15_build1$i")
                     name = "build1$i"
