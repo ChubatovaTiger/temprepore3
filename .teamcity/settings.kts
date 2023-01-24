@@ -42,7 +42,7 @@ object Proj1_Build1 : BuildType({
 })
 */
 
-object Proj1_Root1 : Derived({
+object Proj1_Root1 : GitVcsRoot({
     name = p
     id=p
     pollInterval = 6
