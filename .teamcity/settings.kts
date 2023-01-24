@@ -30,7 +30,7 @@ object Proj1 : Project({
 
     vcsRoot(Proj1_Root1)
  ////////////////////////////   
-    for (i in 0..3) {
+    for (i in 1..40) {
                 buildType {
                     id("build1$i")
                     name = "build1$i"
@@ -58,16 +58,20 @@ object Proj2 : Project({
 
     vcsRoot(Proj2_Root2)
 
-    buildType(Proj2_Build2)
-})
-
-object Proj2_Build2 : BuildType({
-    name = "build2"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj2_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj2_Root2)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
+
 
 object Proj2_Root2 : GitVcsRoot({
     name = "root2"
@@ -84,16 +88,20 @@ object Proj3 : Project({
 
     vcsRoot(Proj3_Root3)
 
-    buildType(Proj3_Build3)
-})
-
-object Proj3_Build3 : BuildType({
-    name = "build3"
-
-    vcs {
+  ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj3_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj3_Root3)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
+
 
 object Proj3_Root3 : GitVcsRoot({
     name = "root3"
@@ -109,16 +117,20 @@ object Proj4 : Project({
 
     vcsRoot(Proj4_Root4)
 
-    buildType(Proj4_Build4)
-})
-
-object Proj4_Build4 : BuildType({
-    name = "build4"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj4_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj4_Root4)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
+
 
 object Proj4_Root4 : GitVcsRoot({
     name = "root4"
@@ -134,16 +146,20 @@ object Proj5 : Project({
 
     vcsRoot(Proj5_Root5)
 
-    buildType(Proj5_Build5)
-})
-
-object Proj5_Build5 : BuildType({
-    name = "build5"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj5_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj5_Root5)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
+
 
 object Proj5_Root5 : GitVcsRoot({
     name = "root5"
@@ -159,16 +175,19 @@ object Proj6 : Project({
 
     vcsRoot(Proj6_Root6)
 
-    buildType(Proj6_Build6)
-})
-
-object Proj6_Build6 : BuildType({
-    name = "build6"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj6_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj6_Root6)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
 
 object Proj6_Root6 : GitVcsRoot({
     name = "root6"
@@ -184,16 +203,20 @@ object Proj7 : Project({
 
     vcsRoot(Proj7_Root7)
 
-    buildType(Proj7_Build7)
-})
-
-object Proj7_Build7 : BuildType({
-    name = "build7"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj7_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj7_Root7)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
+
 
 object Proj7_Root7 : GitVcsRoot({
     name = "root7"
@@ -209,16 +232,19 @@ object Proj8 : Project({
 
     vcsRoot(Proj8_Root8)
 
-    buildType(Proj8_Build8)
-})
-
-object Proj8_Build8 : BuildType({
-    name = "build8"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj8_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj8_Root8)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
 
 object Proj8_Root8 : GitVcsRoot({
     name = "root8"
@@ -234,16 +260,19 @@ object Proj9 : Project({
 
     vcsRoot(Proj9_Root9)
 
-    buildType(Proj9_Build9)
-})
-
-object Proj9_Build9 : BuildType({
-    name = "build9"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj9_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj9_Root9)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
 
 object Proj9_Root9 : GitVcsRoot({
     name = "root9"
@@ -259,16 +288,19 @@ object Proj10 : Project({
 
     vcsRoot(Proj10_Root10)
 
-    buildType(Proj10_Build10)
-})
-
-object Proj10_Build10 : BuildType({
-    name = "build10"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj10_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj10_Root10)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
 
 object Proj10_Root10 : GitVcsRoot({
     name = "root10"
@@ -283,17 +315,19 @@ object Proj11 : Project({
     name = "proj11"
 
     vcsRoot(Proj11_Root11)
-
-    buildType(Proj11_Build11)
-})
-
-object Proj11_Build11 : BuildType({
-    name = "build11"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj11_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj11_Root11)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
 
 object Proj11_Root11 : GitVcsRoot({
     name = "root11"
@@ -309,16 +343,19 @@ object Proj12 : Project({
 
     vcsRoot(Proj12_Root12)
 
-    buildType(Proj12_Build12)
-})
-
-object Proj12_Build12 : BuildType({
-    name = "build12"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj12_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj12_Root12)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
 
 object Proj12_Root12 : GitVcsRoot({
     name = "root12"
@@ -334,15 +371,17 @@ object Proj13 : Project({
 
     vcsRoot(Proj13_Root13)
 
-    buildType(Proj13_Build13)
-})
-
-object Proj13_Build13 : BuildType({
-    name = "build13"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj13_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj13_Root13)
-    }
+             }
+                }
+        }
+    ///////////
 })
 
 object Proj13_Root13 : GitVcsRoot({
@@ -359,15 +398,17 @@ object Proj14 : Project({
 
     vcsRoot(Proj14_Root14)
 
-    buildType(Proj14_Build14)
-})
-
-object Proj14_Build14 : BuildType({
-    name = "build14"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj14_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj14_Root14)
-    }
+             }
+                }
+        }
+    ///////////
 })
 
 object Proj14_Root14 : GitVcsRoot({
@@ -384,16 +425,19 @@ object Proj15 : Project({
 
     vcsRoot(Proj15_Root15)
 
-    buildType(Proj15_Build15)
-})
-
-object Proj15_Build15 : BuildType({
-    name = "build15"
-
-    vcs {
+ ////////////////////////////   
+    for (i in 1..40) {
+                buildType {
+                    id("Proj15_build1$i")
+                    name = "build1$i"
+                        vcs {
         root(Proj15_Root15)
-    }
+             }
+                }
+        }
+    ///////////
 })
+
 
 object Proj15_Root15 : GitVcsRoot({
     name = "root15"
