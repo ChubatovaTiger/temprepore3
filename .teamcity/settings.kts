@@ -42,6 +42,7 @@ object Build1 : BuildType({
 
 object Root1 : GitVcsRoot({
     name = "root1"
+    pollInterval = 6
     url = "https://github.com/ChubatovaTiger/manyBranches"
     branch = "refs/heads/12e"
     branchSpec = "refs/heads/(*)"
